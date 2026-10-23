@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:$PATH"
+export CLAUDE_CONFIG_DIR="$HOME/.pstack/claude"
+export CODEX_HOME="$HOME/.pstack/codex"
+exec claude "$@"

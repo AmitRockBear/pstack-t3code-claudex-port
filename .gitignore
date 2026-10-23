@@ -1,0 +1,17 @@
+# Runtime state Claude Code and Codex write into their homes.
+/claude/*
+!/claude/settings.json
+!/claude/hooks/
+!/claude/agents
+!/claude/skills/
+!/claude/pstack-models.md
+/claude/skills/synced/
+/codex/*
+!/codex/config.toml
+!/codex/skills/
+/codex/skills/.system/
+/outputs/
+/worktrees/
+node_modules/
+__pycache__/
+.DS_Store
